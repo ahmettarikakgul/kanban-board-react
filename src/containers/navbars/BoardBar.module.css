@@ -1,0 +1,108 @@
+.navbar {
+  height: 10%;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Daha belirgin bir arka plan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+  backdrop-filter: blur(10px); /* Arka plan bulanıklaştırma efekti */
+}
+
+.name {
+  color: white;
+  font-size: 1.6rem; /* Font boyutunu biraz büyüttüm */
+  width: 50%;
+  padding: 14px 58px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  margin-left: 30px;
+  text-align: center;
+  margin-top: -3px;
+  padding-right: 20px;
+  transition: transform 0.3s ease; /* Hover için geçiş efekti eklendi */
+}
+
+.icon svg {
+  padding-top: 5px;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Hover durumunda büyütme efekti */
+}
+
+.button {
+  position: absolute;
+  left: 80%;
+  width: 20%;
+  top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.userImage {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Görüntüye hafif gölge efekti */
+}
+
+.share {
+  height: 40px;
+  width: 35%;
+  color: black;
+  background-color: #87CEEB; /* Daha yumuşak bir mavi tonu */
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: background-color 0.3s ease; /* Hover efekti için geçiş */
+}
+
+.share:hover {
+  background-color: #00BFFF; /* Hover durumunda daha parlak mavi */
+}
+
+.user {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#whiteBtn {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease; /* Hover efekti için geçiş */
+}
+
+#whiteBtn:hover {
+  border-radius: 23px;
+  background-color: rgb(215, 9, 252);
+  color: white;
+  transform: scale(1.1); /* Hover durumunda büyütme efekti */
+}
+
+.backGbtn {
+  display: flex;
+  border: none;
+  padding: 0.438rem;
+  cursor: pointer;
+  color: aliceblue;
+  align-items: center;
+  background: none;
+  transition: color 0.3s ease; /* Hover efekti için geçiş */
+}
+
+.backGbtn svg {
+  margin-left: 0.5rem;
+  padding-top: 0.1rem;
+  transition: transform 0.5s, color 0.3s ease; /* Geçişler için ayarlandı */
+}
+
+.backGbtn:hover svg {
+  font-size: 1.2rem;
+  color: cornflowerblue;
+  transform: rotate(10deg); /* Hover durumunda hafif döndürme efekti */
+}

@@ -1,0 +1,156 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+  }
+  .justifyIcon {
+    padding-left: 3%;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+  }
+  .justifyImage {
+    padding-left: 1%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -20px;
+    
+  }
+  .disc {
+    color: #172b4d;
+    width: 90%;
+    position: relative;
+    left: 2%;
+    font-size: 18px;
+    top: 15px;
+  }
+  .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 35px;
+    width: 130px;
+    border: none;
+    color: #172b4d;
+    background-color: #091e420f;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    margin-top: -12px;
+  }
+  .button:hover {
+    background-color: #dcdde1;
+  }
+  .userImage {
+    border-radius: 50%;
+    margin-top: 0px;
+    /* border:1px solid red; */
+    
+  }
+  .userImages {
+    border-radius: 50%;
+  }
+  .detailsDiv {
+    margin-top: 10%;
+  }
+  .comment {
+    /* border:1px solid; */
+    position: relative;
+    top: 40px;
+    padding: 0;
+    /* display: flex; */
+    /* align-items: center; */
+  }
+  .commentBtn {
+    position: relative;
+    left: 10px;
+  
+    z-index: 1;
+  }
+  
+  .commentBox{
+    display: flex;
+    padding: 10px;
+    /* border:1px solid blue; */
+  }
+  
+  .addComment {
+    padding-left: 2%;
+    width: 26rem;
+    height: 40px;
+    background-color: #091e420f;
+    color: #172b4d;
+    border: none;
+    text-align: left;
+    /* margin-left: 1rem; */
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .textEditor {
+    display: inline-block;
+    width: 26rem;
+    height: 50px;
+  }
+  
+  .btns {
+    margin-top: 11px;
+  }
+  .save {
+    background-color: #0984e3;
+    color: white;
+    height: 38px;
+    width: 95px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 9px;
+    font-size: 15px;
+  }
+  .cancel {
+    background-color: white;
+    color: black;
+    height: 38px;
+    width: 95px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+  }
+  .cancel:hover {
+    background-color: #dcdde1;
+  }
+  .mainActivityBox {
+    padding: 10px;
+  }
+  
+  .activityImage {
+    display: flex;
+    margin-top: 1em;
+  }
+  .textEditor input {
+    width: 100%;
+    height: 100%;
+  }
+  .activityText {
+    margin-left: 10px;
+    color: #172b4d;
+  }
+  
+  .textEditor input:focus {
+    outline-color: lightskyblue;
+  }
+  
+  .savedInput {
+    cursor: pointer;
+    margin-left: 1rem;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .time{
+    color: gray;
+    font-size: 12px;
+  }
+  
+  

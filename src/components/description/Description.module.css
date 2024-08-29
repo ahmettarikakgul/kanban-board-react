@@ -1,0 +1,101 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.disc {
+  color: #172b4d;
+  width: 90%;
+  position: relative;
+  left: 2%;
+  font-size: 18px;
+  top: 15px;
+}
+.button {
+  color: #172b4d;
+  background-color: #091e420f;
+  font-size: 14px;
+  min-height: 45px;
+  border-radius: 3px;
+  padding: 8px 12px;
+  border: none;
+  width: 26rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #dcdde1;
+}
+
+.justifyIcon {
+  padding-left: 3%;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.inputs {
+  height: 270px;
+  width: 600px;
+}
+
+.inputs input {
+  width: 100%;
+  min-height: 100%;
+}
+
+.inputs input:focus {
+  outline-color: lightskyblue;
+}
+
+.savedInput {
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.button:hover {
+  background-color: #dcdde1;
+}
+.justifyIcon {
+  padding-left: 3%;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.inputs {
+  height: fit-content;
+  width: 400px;
+}
+
+.inputs input {
+  width: 100%;
+  min-height: 100%;
+}
+.inputs input:focus {
+  outline-color: lightskyblue;
+}
+
+.save {
+  background-color: #0984e3;
+  color: white;
+  height: 38px;
+  width: 95px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 9px;
+  font-size: 15px;
+}
+.cancel {
+  background-color: white;
+  color: black;
+  height: 38px;
+  width: 95px;
+  border-radius: 3px;
+  border: none;
+  font-size: 15px;
+}
+.cancel:hover {
+  background-color: #dcdde1;
+}
+.buttonsSave {
+  margin-top: 5px;
+}
