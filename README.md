@@ -18,11 +18,13 @@ https://github.com/ahmettarikakgul/kanban-board-react.git
 cd kanban-board-react
 
 Adım 2: Gerekli Paketleri Yükleyin
+
 npm install
 # veya
 yarn install
 
 Adım 3: Uygulamayı Çalıştırın
+
 npm start
 # veya
 yarn start
